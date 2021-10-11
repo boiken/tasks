@@ -11,10 +11,10 @@ resource "aws_instance" "Master" {
 
 resource "aws_instance" "Worker1" {
   ami = "ami-02e136e904f3da870"
-  instance_type = "t2.medium"
+  instance_type = "t2.micro"
 }
 
 resource "aws_instance" "Worker2" {
   ami = "ami-02e136e904f3da870"
-  instance_type = "t2.medium"
+  instance_type = "t2.micro"
 }
